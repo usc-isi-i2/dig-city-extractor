@@ -2,7 +2,7 @@
 from digDictionaryExtractor.dictionary_extractor import DictionaryExtractor
 
 
-def get_city_dictionary_extractor(city_trie, stop_words):
+def get_city_dictionary_extractor(city_trie, stop_words=[]):
     """Method for creating default name dictionary extractor"""
 
     return DictionaryExtractor()\
